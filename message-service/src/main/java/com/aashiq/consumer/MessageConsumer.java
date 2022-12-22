@@ -11,7 +11,7 @@ public class MessageConsumer {
 
     @RabbitListener(queues = QUEUE)
     public void   consumeMessage(com.aashiq.entity.User user) {
-        System.out.println("Message received from queue: " + user.toString());
+        System.out.println("Message received from queue::::: " + user.toString());
     }
 
 
